@@ -4,4 +4,4 @@ param(
 )
 
 Connect-AzAccount
-Stop-AzVM -ResourceGroupName $resourceGroupName -Name $vmName -Force
+Stop-AzVM -ResourceGroupName $tftestrg -Name $myselfhostedagent -Force
